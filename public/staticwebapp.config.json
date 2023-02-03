@@ -1,9 +1,12 @@
 {
     "routes": [
       {
-        "route": "/*",
-        "rewrite": "/index.html",
-        "statusCode": 200
+        "route": "/white",
+        "rewrite": "/index.html"
+      },
+      {
+        "route": "/tree",
+        "rewrite": "/index.html"
       }
     ],
     "navigationFallback": {
